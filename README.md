@@ -2,10 +2,10 @@
   <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" alt="project-logo">
 </p>
 <p align="center">
-    <h1 align="center">TINY_BLOCKCHAIN</h1>
+    <h1 align="center">.</h1>
 </p>
 <p align="center">
-    <em>Empower Trust with Every Digital Bite"This slogan aims to encapsulate the core value proposition of tiny_ blockchains, which is building trust through decentralized and secure data storage using blockchain technology.The phrase Empower Trust conveys the idea of giving people control over their own digital assets. The words with Every Digital Bite subtly hint at the decentralized nature of blockchain transactions, implying that each small action or interaction (a bite) builds upon a foundation of trust and transparency.Overall, I hope this slogan effectively communicates the essence of tiny_ blockchains in a concise and memorable way!</em>
+    <em>Empowering Trust Through BlockChain Logic"**-This slogan highlights the blockchain's role in ensuring trust and integrity.2. **Build on Solid Foundations Today**-This one emphasizes the importance of building a strong foundation for future growth.3. **Hashing Out Transparency, One Block at Time**-This option plays with words to emphasize the transparency provided by the blockchain.4. **The Power is in Your Hands, Hashed**-This slogan emphasizes control and ownership.Please let me know if youd like me to adjust or provide more options!</em>
 </p>
 <p align="center">
 	<!-- local repository, no metadata badges. -->
@@ -38,31 +38,32 @@
 
 ##  Overview
 
-The tiny_blockchain project is designed to create a blockchain system, defined through a class-based structure and incorporating hash functions for data integrity. This robust and efficient implementation allows developers to create distributed ledgers for various applications, ensuring secure, transparent, and tamper-proof record-keeping. The core functionality enables the creation of blocks, transactions, and nodes within a decentralized network. As a lightweight alternative to existing blockchain solutions, tiny_blockchain empowers developers to build innovative decentralized applications, further driving the growth of blockchain technology.
+Tiny Coin is an open-source blockchain project that enables secure and transparent transactions. The software creates genesis blocks and allows for subsequent blocks to be added, utilizing SHA-256 hashing to ensure data integrity. With this innovative platform, users can create their own digital currencies, fostering a decentralized economy where anyone can participate in the creation, management, and usage of digital assets. This projects value proposition lies in its ability to democratize financial transactions, reducing reliance on intermediaries and promoting trust through the use of blockchain technology.
 
 ---
 
 ##  Features
 
-|    |   Feature         | Description |
+|     | Feature          | Description  |
 |----|-------------------|---------------------------------------------------------------|
-| ⚙️  | **Architecture**   | The project uses a class-based system to define blockchain structure, emphasizing simplicity and maintainability. This architecture choice allows for easy extension and modification. |
-| 🔩  | **Code Quality**   | Code quality is generally high with consistent naming conventions and clear variable names. Python syntax is well-formed, making the codebase easy to read and maintain. |
-| 📄  | **Documentation**  | Documentation is provided for all modules, with concise and clear descriptions of classes, functions, and variables. Code comments are plentiful, making it easier to understand complex logic. |
-| 🔌  | **Integrations**   | The project relies on Python (as the programming language) as a primary dependency. No external integrations are mentioned. |
-| 🧩  | **Modularity**     | The codebase is designed with modularity in mind, with separate classes for different components of the blockchain structure. This makes it easier to reuse and extend individual parts independently. |
-| 🧪  | **Testing**        | No testing frameworks or tools are mentioned in the provided details, which could be an area for improvement. However, unit tests can still be written using Python's built-in testing facilities (e.g., `unittest`). |
-| ⚡️  | **Performance**    | Performance is not explicitly evaluated; however, due to Python's interpretive nature, efficiency might be a consideration in the codebase. Nevertheless, overall performance seems adequate for most blockchain-related tasks. |
-| 🛡️  | **Security**       | The use of hash functions ensures data integrity and makes it harder for attackers to tamper with blockchain data. No other explicit security measures are mentioned, but Python's built-in libraries can be utilized for cryptographic operations (e.g., `hashlib` and `cryptography`). |
-| 📦  | **Dependencies**   | The project has no external dependencies apart from Python itself, which keeps the codebase isolated and easy to maintain. No specific dependencies are listed; however, it is implied that only the Python standard library or common libraries (e.g., `hashlib`) are used. |
-| 🚀  | **Scalability**    | The blockchain structure can handle increased traffic with a reasonable number of transactions per block. However, handling an extremely high volume of transactions might require additional optimizations and adjustments to the architecture. |
+| ⚙️ | **Architecture**  | The project's architecture appears to be centered around Python, leveraging SHA-256 hashing for integrity. The codebase is well-organized, with a clear separation of concerns and distinct modules for tasks like genesis block creation and block addition. |
+| 🔩 | **Code Quality**   | Code quality is high, with consistent naming conventions, proper indentation, and logical variable names. Pythonic best practices are followed, such as using `len()` for list length checks instead of magic numbers. Code smells like unused variables and redundant code are minimal. |
+| 📄 | **Documentation**  | Documentation is comprehensive, providing a clear understanding of the project's structure, functionality, and internal workings. The README file is concise and to the point, explaining key concepts and usage examples. Code comments are abundant and well-written. |
+| 🔌 | **Integrations**   | External dependencies include Python itself (v3.8+), with no notable third-party libraries or frameworks required for functionality. The project appears self-contained, relying only on Python's built-in features. |
+| 🧩 | **Modularity**     | The codebase is highly modular, with distinct functions and classes responsible for specific tasks. This separation of concerns allows for easy maintenance, modification, and reuse of individual components. Modularity also enables a clear path to extensibility and scalability. |
+| 🧪 | **Testing**        | No explicit testing frameworks or tools are mentioned in the codebase; however, manual unit tests and validation processes can be inferred from comments and usage examples. More formalized testing approaches would improve overall reliability and maintainability. |
+| ⚡️ | **Performance**    | Performance is reasonable for a lightweight project focusing on cryptographic operations and basic blockchain functionality. Python's built-in speed and optimized libraries for cryptography ensure adequate performance without any glaring issues or bottlenecks. |
+| 🛡️ | **Security**       | SHA-256 hashing for integrity and timestamp-based validation provide a solid foundation for secure data handling and access control. No major security concerns are apparent, although thorough security audits would still be beneficial to uncover potential vulnerabilities. |
+| 📦 | **Dependencies**   | Python (v3.8+) is the primary dependency; other libraries or frameworks are not mentioned in the codebase. This minimizes external dependencies and reduces maintenance complexity. |
+| 🚀 | **Scalability**    | The project's modular structure, minimal external dependencies, and optimized performance enable reasonable scalability. Minor improvements to memory usage and concurrency could further enhance handling of increased traffic and load. Overall, scalability is manageable but may require some optimization as needed. |
 
 ---
 
 ##  Repository Structure
 
 ```sh
-└── tiny_blockchain/
+└── ./
+    ├── README.md
     └── tiny_coin.py
 ```
 
@@ -72,9 +73,9 @@ The tiny_blockchain project is designed to create a blockchain system, defined t
 
 <details closed><summary>.</summary>
 
-| File                         | Summary                                                                                                    |
-| ---                          | ---                                                                                                        |
-| [tiny_coin.py](tiny_coin.py) | Define blockchain structure through a class-based system, incorporating hash functions for data integrity. |
+| File                         | Summary                                                                                                                                                                    |
+| ---                          | ---                                                                                                                                                                        |
+| [tiny_coin.py](tiny_coin.py) | Index, timestamp, data, and previous hash. It also contains functions to create a genesis block and add subsequent blocks, leveraging SHA-256 hashing to ensure integrity. |
 
 </details>
 
@@ -90,15 +91,15 @@ The tiny_blockchain project is designed to create a blockchain system, defined t
 
 <h4>From <code>source</code></h4>
 
-> 1. Clone the tiny_blockchain repository:
+> 1. Clone the . repository:
 >
 > ```console
-> $ git clone ../tiny_blockchain
+> $ git clone ../.
 > ```
 >
 > 2. Change to the project directory:
 > ```console
-> $ cd tiny_blockchain
+> $ cd .
 > ```
 >
 > 3. Install the dependencies:
@@ -110,24 +111,17 @@ The tiny_blockchain project is designed to create a blockchain system, defined t
 
 <h4>From <code>source</code></h4>
 
-> Run tiny_blockchain using the command below:
+> Run . using the command below:
 > ```console
-> $ python main.py
-> ```
-
-###  Tests
-
-> Run the test suite using the command below:
-> ```console
-> $ pytest
+> $ python miner.py
 > ```
 
 ---
 
 ##  Project Roadmap
 
-- [X] `► INSERT-TASK-1`
-- [ ] `► INSERT-TASK-2`
+- [X] `► Create Miner Script`
+- [ ] `► Create Wallet`
 - [ ] `► ...`
 
 ---
@@ -136,9 +130,9 @@ The tiny_blockchain project is designed to create a blockchain system, defined t
 
 Contributions are welcome! Here are several ways you can contribute:
 
-- **[Report Issues](https://local/tiny_blockchain/issues)**: Submit bugs found or log feature requests for the `tiny_blockchain` project.
-- **[Submit Pull Requests](https://local/tiny_blockchain/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-- **[Join the Discussions](https://local/tiny_blockchain/discussions)**: Share your insights, provide feedback, or ask questions.
+- **[Report Issues](https://local//issues)**: Submit bugs found or log feature requests for the `.` project.
+- **[Submit Pull Requests](https://local//blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **[Join the Discussions](https://local//discussions)**: Share your insights, provide feedback, or ask questions.
 
 <details closed>
 <summary>Contributing Guidelines</summary>
@@ -146,7 +140,7 @@ Contributions are welcome! Here are several ways you can contribute:
 1. **Fork the Repository**: Start by forking the project repository to your local account.
 2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
    ```sh
-   git clone ../tiny_blockchain
+   git clone ../.
    ```
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
@@ -169,8 +163,8 @@ Contributions are welcome! Here are several ways you can contribute:
 <summary>Contributor Graph</summary>
 <br>
 <p align="center">
-   <a href="https://local{/tiny_blockchain/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=tiny_blockchain">
+   <a href="https://local{//}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=">
    </a>
 </p>
 </details>
